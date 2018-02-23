@@ -13,7 +13,7 @@ from setuptools import setup
 
 # Add here console scripts and other entry points in ini-style format
 entry_points = {
-          'console_scripts':['COMP30670_systeminfo=flask_platform.run:run']
+          'console_scripts':['systeminfo=flask_platform.run:run']
           }
 
 

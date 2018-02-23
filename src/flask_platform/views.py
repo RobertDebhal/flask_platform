@@ -1,6 +1,6 @@
 from flask import render_template
 from flask_platform import app
-from systeminfo import main as sysinfo
+import systeminfo as sysinfo
 
 @app.route('/')
 def get_systeminfo():

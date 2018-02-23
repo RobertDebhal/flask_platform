@@ -1,4 +1,3 @@
-from flask import render_template
 from flask_platform import app
 import systeminfo as sysinfo
 
